@@ -1,7 +1,7 @@
 :root {
   --headerANDfooter-backgrond: rgb(0, 0, 0);
   --fuente: "Roboto", sans-serif;
-  --bgcolor-sidebar: rgb(252, 255, 46);
+  --bgcolor-sidebar: rgb(252, 255, 45);
   --bgcolor-sidebar-hover: rgb(147, 150, 5);
   --bgcolor-main: rgb(56, 45, 71);
 }

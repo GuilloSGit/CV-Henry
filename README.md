@@ -11,7 +11,9 @@ Solicitaron entre otras cosas, lo siguiente:
 ## Ejercicio II
 
 ```
-Usando lo que aprendiste de HTML vas a crear un nuevo documento dentro de la carpeta de 'homework' llamado 'cv.html'. En el mismo vas crear tu propio Curriculum, deberá tener las siguientes secciones:
+Usando lo que aprendiste de HTML vas a crear un nuevo documento
+dentro de la carpeta de 'homework' llamado 'cv.html'.
+En el mismo vas crear tu propio Curriculum, deberá tener las siguientes secciones:
 
 * Titulo
 * Descripción Personal
@@ -21,7 +23,8 @@ Usando lo que aprendiste de HTML vas a crear un nuevo documento dentro de la car
 * Tu foto
 * Hobbies
 
-Además agregá una sección más donde expliques por qué estás estudiando esta carrera y cuáles son tus expectativas al finalizar la carrera.
+Además agregá una sección más donde expliques por qué estás estudiando esta carrera
+y cuáles son tus expectativas al finalizarla.
 
 Subir también este archivo a su repositorio de github
 
