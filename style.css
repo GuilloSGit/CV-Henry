@@ -66,12 +66,10 @@ header {
 
 .itemLIHobbies {
   font-family: var(--fuente);
-  display: block;
+  font-size: smaller;
+  list-style: none;
   padding: 10px 20px;
   user-select: none;
-  text-decoration: none;
-  transition: all 0.5s ease-in-out;
-  border: none;
 }
 
 /* No visitado link */
@@ -152,7 +150,7 @@ footer {
 /* Foto */
 
 .foto_personal {
-  max-width: 450px;
+  max-width: 350px;
   width: 70%;
   margin: 25px;
   border-radius: 35px 35px 35px 0;
@@ -214,7 +212,7 @@ footer {
     padding: 5px;
   }
   .titulo {
-    font-size: 1.1em;
+    font-size: 1em;
   }
   .tituloDesarrollador {
     padding: 0;
@@ -261,11 +259,11 @@ footer {
     margin: -15% 0 0 -25%;
   }
   .main_title {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .main_text {
-    font-size: 1.2em;
+    font-size: 1em;
     max-width: 95%;
     margin: 8px 10px;
   }
@@ -294,23 +292,23 @@ footer {
     left: 45%;
   }
   .main_title {
-    font-size: 2.1em;
+    font-size: 1.5em;
   }
   .main_text {
-    font-size: 2em;
+    font-size: 1.3em;
   }
 }
 
 @media screen and (min-width: 1250px) {
   .visible {
-    top: 25%;
+    top: 45%;
     left: 55%;
   }
 }
 
 @media screen and (min-width: 1850px) {
   .visible {
-    top: 35%;
+    top: 55%;
     left: 60%;
   }
 }
