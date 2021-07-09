@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/user-tie-solid.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined">
     <link rel="stylesheet" href="style.css">
@@ -19,9 +21,13 @@
     <div class="left-sidebar">
         <nav>
             <ul class="listaNavegador">
-                <li id="itemHome"><a class="itemLI tooltip"><span class="tooltiptext">back home</span><span class="material-icons-outlined">
+
+                <!--  -->
+                <li id="itemHome"><a class="itemLI tooltip"><span class="tooltiptext">home</span><span class="material-icons-outlined">
                     home
                 </span></a></li>
+                <!--  -->
+
                 <li id="itemAbout"><a href="#" class="itemLI tooltip"><span class="tooltiptext">brief about me</span><span class="material-icons-outlined">
                     question_answer
                 </span></a></li>
@@ -39,6 +45,9 @@
                 </span></a></li>
                 <li id="itemMore"><a href="#" class="itemLI tooltip"><span class="tooltiptext">more about me</span><span class="material-icons-outlined">
                     maps_ugc
+                </span></a></li>
+                <li id="itemSocial"><a href="#" class="itemLI tooltip"><span class="tooltiptext">me on social media</span><span class="material-icons-outlined">
+                    fingerprint
                 </span></a></li>
             </ul>
         </nav>
@@ -133,11 +142,27 @@
                 <p>Today I worry about studying and doing everything I can to get the best out of this professional training journey.</p>
             </div>
         </div>
+        <div class="invisible" id="socialView">
+            <div class="main_title">
+                <h2>Me on social Media</h2>
+            </div>
+            <div class="main_text">
+                <ul class="socialMedia">
+                    <li class="itemSocialMedia"><a href="https://www.linkedin.com/in/guillermo-david-andrada/" target="_blank" class="tooltip2"><span class="tooltiptext2">LinkedIn</span><i class="fab fa-linkedin"></i></a></li>
+                    <li class="itemSocialMedia"><a href="https://jsfiddle.net/user/GuilleAndrada/fiddles/" target="_blank"class="tooltip2"><span class="tooltiptext2">fiddle</span><i class="fab fa-jsfiddle"></i></a></li>
+                    <li class="itemSocialMedia"><a href="https://codepen.io/guillosgit" target="_blank"class="tooltip2"><span class="tooltiptext2">CodePen</span><i class="fab fa-codepen"></i></a></li>
+                    <li class="itemSocialMedia"><a href="https://github.com/GuilloSGit" target="_blank"class="tooltip2"><span class="tooltiptext2">GitHub</span><i class="fab fa-github-square"></i></a></li>
+                    <li class="itemSocialMedia"><a href="https://www.sololearn.com/profile/5238708" target="_blank"class="tooltip2"><span class="tooltiptext2">SoloLearn</span><i class="fas fa-fan"></i></a></li>
+                    <li class="itemSocialMedia"><a href="https://es.duolingo.com/profile/GuilleAndrada" target="_blank"class="tooltip2"><span class="tooltiptext2">DuoLingo</span><i class="fas fa-user-circle"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </main>
     <footer class="footerContainer">
-        <h3>Guillermo Andrada</h3>
+        <h5>Guillermo Andrada</h5>
         <h6>Tartagal - 2021</h6>
     </footer>
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -64,7 +64,8 @@ header {
   border: none;
 }
 
-.itemLIHobbies {
+.itemLIHobbies,
+.itemSocialMedia {
   font-family: var(--fuente);
   font-size: smaller;
   list-style: none;
@@ -107,16 +108,37 @@ main {
 .main_text {
   margin: 20px 0;
   padding: 1em;
-}
-.main_text > p {
   max-width: 560px;
-  width: 85%;
+  width: 40%;
   margin: 15px 0;
   line-height: 1.3;
 }
 
 code {
   font-size: 18px;
+}
+
+/* Social Media items */
+
+ul.socialMedia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.itemSocialMedia {
+  font-size: 5rem;
+}
+
+path {
+  color: var(--bgcolor-sidebar);
+}
+
+path:hover {
+  color: var(--bgcolor-sidebar-hover);
+  transform: translateX(15px);
 }
 
 /* Footer */
@@ -180,6 +202,7 @@ footer {
 
 /* Tooltips para las pistas del mouse hover sobre iconos */
 
+/* Tooltip 1 */
 .tooltip {
   position: relative;
   display: inline-block;
@@ -193,14 +216,40 @@ footer {
   text-align: center;
   padding: 5px 0;
 
-  /* Position the tooltip */
-
+  /* Posición del tooltip */
   position: absolute;
   right: -160%;
   z-index: 1;
 }
 
 .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* Tooltip 2 */
+
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  width: fit-content;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 1rem;
+
+  /* Posición del tooltip */
+  position: absolute;
+  bottom: 50%;
+  right: 5%;
+  z-index: 1;
+}
+
+.tooltip2:hover .tooltiptext2 {
   visibility: visible;
 }
 
@@ -255,40 +304,50 @@ footer {
   .visible {
     top: 7%;
     left: 25%;
-    max-width: 95%;
+    max-width: 100%;
     margin: -15% 0 0 -25%;
   }
   .main_title {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
-  .main_text {
-    font-size: 1em;
+  .main_text,
+  .main_text > p {
+    font-size: 0.95em;
     max-width: 95%;
-    margin: 8px 10px;
+    margin: 8px 7px;
+    line-height: 1.2;
   }
   .foto_personal {
     margin: 15px;
     width: 75%;
   }
+  .itemSocialMedia {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   body {
-    font-size: 1.1;
+    font-size: 0.95em;
   }
+
+  .main_title {
+    font-size: 1.7em;
+  }
+
   .main_text > h3 {
     font-size: 1.2;
-    width: 70%;
+    width: 95%;
   }
   .main_text {
-    width: 70%;
+    width: 80%;
     font-size: 1.1em;
   }
 }
 @media screen and (min-width: 1000px) {
   .visible {
-    top: 20%;
+    top: 25%;
     left: 45%;
   }
   .main_title {
